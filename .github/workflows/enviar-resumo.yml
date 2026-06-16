@@ -1,0 +1,28 @@
+name: Focus BCB — Envio do resumo
+
+on:
+  push:
+    paths:
+      - "output/focus/focus_*.html"
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Enviar e-mail
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python src/enviar_email.py
