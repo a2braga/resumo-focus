@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Gmail": {
+      "type": "cloud",
+      "description": "Google Gmail MCP — configurado via ambiente remoto no claude.ai/code (Environments > MCP Servers). Fornece acesso a threads, rascunhos e labels do Gmail."
+    }
+  }
+}
