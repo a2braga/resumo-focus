@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+
+# PDFs e textos baixados ficam em data/ — não versionar arquivos grandes binários
+data/
+
+# output/focus/ é versionado de propósito: contém os resumos gerados pelo agente
