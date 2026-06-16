@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .env
 
-# PDFs e textos baixados ficam em data/ — não versionar arquivos grandes binários
-data/
+# PDFs são grandes demais para versionar; TXTs são commitados pelo Action
+data/*.pdf
 
 # output/focus/ é versionado de propósito: contém os resumos gerados pelo agente
