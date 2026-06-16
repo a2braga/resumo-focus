@@ -4,7 +4,10 @@ __pycache__/
 *.pyc
 .env
 
-# PDFs e textos baixados ficam em data/ — não versionar arquivos grandes binários
-data/
+# PDFs ficam em data/ — binários grandes, não versionar
+data/*.pdf
+
+# Textos extraídos são commitados para a Routine ler via GitHub MCP
+# data/*.txt  ← versionado de propósito
 
 # output/focus/ é versionado de propósito: contém os resumos gerados pelo agente

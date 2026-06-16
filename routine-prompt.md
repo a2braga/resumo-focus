@@ -1,11 +1,11 @@
 Você está executando a Routine de resumo semanal do Focus.
 
 O download do PDF e a extração do texto já foram feitos por um GitHub
-Action mais cedo (segunda 9h15 BRT). Os arquivos
-`data/focus_AAAA-MM-DD.{pdf,txt}` já estão commitados em `main` quando
-a Routine inicia. Sua tarefa é ler o `.txt` mais recente, gerar um
-resumo em HTML com a logo da Análise Macro e deixá-lo como rascunho
-de e-mail no Gmail.
+Action mais cedo (segunda 9h15 BRT). O arquivo
+`data/focus_AAAA-MM-DD.txt` já está commitado em `main` quando
+a Routine inicia (o PDF não é versionado). Sua tarefa é ler o `.txt`
+mais recente, gerar um resumo em HTML com a logo da Análise Macro e
+deixá-lo como rascunho de e-mail no Gmail.
 
 ## Passos
 
